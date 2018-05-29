@@ -1,0 +1,26 @@
+version:            '3.1'
+
+services:
+  mongo:
+    build:          ./mongo
+    restart:        always
+    ports:
+      - 27017:27017
+    # environment:
+    #    - MONGO_DATA_DIR=/mongo/data/db
+    #  volumes:
+    #    - ./mongo/data/db:/data/db
+
+  mongo-express:
+    build:          ./mongo-express
+    restart:        always
+    ports:
+      - 8081:8081
+
+  okcoin:
+    build:          ./okcoin
+    restart:        always
+
+  millionaire:
+    build:          ./millionaire
+    restart:        always

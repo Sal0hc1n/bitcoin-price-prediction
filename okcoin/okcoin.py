@@ -1,11 +1,10 @@
-"""Script to gather market data from OKCoin Spot Price API."""
 import requests
 from pytz import utc
 from datetime import datetime
 from pymongo import MongoClient
 from apscheduler.schedulers.blocking import BlockingScheduler
 
-client = MongoClient()
+client = MongoClient('mongo', 27017)
 database = client['okcoindb']
 collection = database['historical_data']
 
@@ -31,6 +30,7 @@ def main():
         scheduler.start()
     except (KeyboardInterrupt, SystemExit):
         pass
+
 
 
 if __name__ == '__main__':
