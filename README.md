@@ -19,28 +19,27 @@ To make the project up and running go to the project main folder into the termin
 
 It will spin up 4 containers:
 
-##### MongoDB
-
+#### MongoDB
+![MongoDB](https://webassets.mongodb.com/_com_assets/cms/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png)
 [MongoDB](https://www.mongodb.com/what-is-mongodb) is a document database that stores data in flexible JSON-like document, meaning fields can vary from document to document and data structure can be changed over time
 
-##### Mongo Express
+#### Mongo Express
 
 [Mongo Express](https://github.com/mongo-express/mongo-express) is a Web-based MongoDB admin interface written with Node.js, Express and Bootstrap3.
 
 it can be accessed through <http://swarm-ip:8081>, <http://localhost:8081>, or <http://host-ip:8081> (as appropriate).
 
-### Screenshots
+#### Screenshots
 
 | Home Page                                                      | Database View                                                                  | Collection View                                                     | Editing A Document                                   |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------- | ---------------------------------------------------- |
 | ![Home Page showing databases](http://i.imgur.com/XiYhblA.png) | ![Viewing collections & buckets in a database](http://i.imgur.com/XWcIgY1.png) | ![Viewing documents in a collection](https://imgur.com/UmGSr3x.png) | ![Editing a document](https://imgur.com/lL38abn.png) |
 
-##### OKcoin
-
+#### OKcoin
+![OKcoin](https://p13.zdassets.com/hc/settings_assets/2040249/115000085032/KtIC5cc19xEaPNxycIqvjQ-OKCOIN.svg)
 Daemon that retrives **BTC Price**, **Ask** and **Bid** every 10 seconds from the [OKcoin](https://www.okcoin.com/) exchange.
 
-##### Millionaire
-
+#### Millionaire
 Example container intended for tinkering and experimenting only, which will only display the ammount of bitcoin you will have in your bank account after trading with this way of thinkin.
 
 **NOTE**: You should tinker with this script or write your own instead.
